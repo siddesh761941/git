@@ -45,10 +45,13 @@ Deleting a working directory files
    - git rm <files>
 
 Undoing unstaged change
-   - git restore .
-   - git restore <File>
+   - git restore .  | git checkout .
+   - git restore <File> | git checkout <file>
 
 Deleting untracked files
    - git clean -df
 
-   
+Undoing staged change
+   - git reset <file> | git restore --staged <File>
+     git restore <file> | git checkout <file>
+
