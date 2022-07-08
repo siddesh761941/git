@@ -88,6 +88,18 @@ Merge
      - Fast-Forward
      - Non Fast-Forward
 
-   - Fast Forward
+  - Fast Forward
       - No additional commit in master (After feature branch was created).
-      - Merge Moves HEAD forward but does not create new commit.   
+      - Merge Moves HEAD forward but does not create new commit  
+
+      - git merge <branch>
+      - git merge --squash <branch> (moving changes from 
+        <branch to be merged> to staging area of merging branch, commits
+        of <branch to be merged> will NOT show in logs)
+
+   - Non Fast-Forward (recursive)
+
+      - Additional commits in both master & feature branch after feature branch was created
+        branch was created.
+
+      - Additional(merge) commit is created in master branch.       
