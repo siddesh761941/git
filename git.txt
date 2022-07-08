@@ -67,3 +67,16 @@ Undoing commitng change
 
 Deleting a branch 
    - git branch -D(forcefully)/d <branch_name(s)>
+
+Stash
+   - when you want to record the current state of the working directory 
+     and the index, but want to go back to a clean working directory.
+
+   - Commands
+      - git stash
+      - git list
+      - git stash apply <index>
+      - git stash pop <index>
+      - git stash drop <index>
+      - git stash clear
+      - git stash push -m <stash_message>       
