@@ -27,3 +27,11 @@ Adding staged changes to commit area
 Command to access all out commits in a branch
    - git log
   
+Listing out all the branches
+   - git brach
+
+Creating a new branch
+   - git brach <branch_name>
+
+Changing from onr branch to another branch
+   - git checkout <brach_name>   
