@@ -1,0 +1,19 @@
+Git
+  - Version control system
+  - Control & tracking of changes over time
+
+GitHub
+   - Development platform
+   - Cloud hosting & collaboration provider
+
+How Git works
+   - Folder => Working directory using git
+   - .git(hidden) Repository
+      - Contains two areas
+         - Staging Area(Index File)
+         - Commits (Objects Folder)
+
+   - Git = Tracking changes - NOT storing files again and again.
+
+Convert Working directory to Repositiry
+- git init
