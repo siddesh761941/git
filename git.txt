@@ -83,3 +83,11 @@ Stash
 
 Reflog
 
+Merge
+  - Merge types
+     - Fast-Forward
+     - Non Fast-Forward
+
+   - Fast Forward
+      - No additional commit in master (After feature branch was created).
+      - Merge Moves HEAD forward but does not create new commit.   
