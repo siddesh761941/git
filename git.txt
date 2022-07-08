@@ -40,3 +40,15 @@ Merging branch
    - git merge <branch-to-be-merged-with-current-branch>
 
 Head & detach head
+
+Deleting a working directory files
+   - git rm <files>
+
+Undoing unstaged change
+   - git restore .
+   - git restore <File>
+
+Deleting untracked files
+   - git clean -df
+
+   
