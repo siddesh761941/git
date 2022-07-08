@@ -62,4 +62,8 @@ Undoing commitng change
    - git reset HEAD~<N>
        - moves commit area to unstaged   
    - git reset --hard HEAD~<N>
-       - moves commit area to restore changes     
+       - moves commit area to restore changes
+
+
+Deleting a branch 
+   - git branch -D(forcefully)/d <branch_name(s)>
