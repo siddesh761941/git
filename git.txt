@@ -35,3 +35,8 @@ Creating a new branch
 
 Changing from onr branch to another branch
    - git checkout <brach_name>   
+
+Merging branch
+   - git merge <branch-to-be-merged-with-current-branch>
+
+Head & detach head
