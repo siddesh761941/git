@@ -45,8 +45,8 @@ Deleting a working directory files
    - git rm <files>
 
 Undoing unstaged change
-   - git restore .  | git checkout .
-   - git restore <File> | git checkout <file>
+   -git checkout .
+   -git checkout <file>
 
 Deleting untracked files
    - git clean -df
@@ -55,3 +55,11 @@ Undoing staged change
    - git reset <file> | git restore --staged <File>
      git restore <file> | git checkout <file>
 
+Undoing commitng change
+   - N = no_of_commit_to_reset
+   - git reset --soft HEAD~<N>
+       - moves commit area to staging area
+   - git reset HEAD~<N>
+       - moves commit area to unstaged   
+   - git reset --hard HEAD~<N>
+       - moves commit area to restore changes     
