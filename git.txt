@@ -79,4 +79,7 @@ Stash
       - git stash pop <index>
       - git stash drop <index>
       - git stash clear
-      - git stash push -m <stash_message>       
+      - git stash push -m <stash_message>
+
+Reflog
+
