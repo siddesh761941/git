@@ -16,4 +16,14 @@ How Git works
    - Git = Tracking changes - NOT storing files again and again.
 
 Convert Working directory to Repositiry
-- git init
+   - git init
+
+Adding untracked files to staging area
+   - git add .
+
+Adding staged changes to commit area
+   - git commit -m "<message>"   
+
+Command to access all out commits in a branch
+   - git log
+  
