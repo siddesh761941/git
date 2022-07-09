@@ -102,4 +102,24 @@ Merge
       - Additional commits in both master & feature branch after feature branch was created
         branch was created.
 
-      - Additional(merge) commit is created in master branch.       
+      - Additional(merge) commit is created in master branch.
+
+
+Rebase 
+   - git-rebase - Reapply commits on top of another base tip
+   - git rebase <branch from which current branch needs to be rebased>
+   - Avoid using of rebase, becoz it changes comit ids
+
+Commands
+   - git merge --abort
+   - git diff
+
+Cherry-pick
+   - Add specific commit to branch (HEAD)
+   - copies commit with new ID
+   - git cherry-pick <Commit ID>
+
+----------------------GitHub--------------------
+
+Making connecttion between git and github
+  - git remote add origin <URL>
