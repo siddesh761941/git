@@ -123,3 +123,6 @@ Cherry-pick
 
 Making connecttion between git and github
   - git remote add origin <URL>
+
+Pushing commits
+  - git push origin <branch>  
