@@ -74,7 +74,7 @@ Stash
 
    - Commands
       - git stash
-      - git list
+      - git stash list
       - git stash apply <index>
       - git stash pop <index>
       - git stash drop <index>
@@ -125,4 +125,19 @@ Making connecttion between git and github
   - git remote add origin <URL>
 
 Pushing commits
-  - git push origin <branch>  
+  - git push origin <branch>
+
+-  There is no direct connection b/w local and remote branch, there is remote branch
+   tracking branch in between.
+
+   - git push
+      - local branch => remote tracking branch => Remote branch
+
+   - git pull
+      - Remote branch (fetch) => Remote tracking branch => (merge) local branch
+
+Commands
+  - git branch -a
+  - git branch -vv
+  - git ls-remote
+
